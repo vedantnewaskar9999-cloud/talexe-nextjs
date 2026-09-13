@@ -336,7 +336,7 @@ export default function Home() {
               <small>
                 1:1 guidance, tailored to your career stage — no templates.
               </small>
-
+              
             </div>
 
 
@@ -345,9 +345,8 @@ export default function Home() {
             <div className="hero-circle"></div>
 
           </div>
-
+        </div>
         </section>
-
 
 
 
