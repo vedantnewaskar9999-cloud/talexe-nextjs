@@ -96,6 +96,18 @@ a { color: inherit; text-decoration: none; }
 .trust-row svg { color:var(--gold); }
 
 .hero-visual { position:relative; min-height:620px; background:#2b2e2f; }
+.hero-image-container {
+  position: absolute;
+  inset: 0 0 24px 0;
+  overflow: hidden;
+}
+.hero-image-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
 .portrait-wrap { position:absolute; inset:0 0 0 24px; overflow:hidden; }
 .portrait-wrap img { width:100%; height:100%; object-fit:cover; object-position:center; filter:saturate(.82); }
 .response-card {
