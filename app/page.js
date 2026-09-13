@@ -306,7 +306,7 @@ export default function Home() {
             <div className="hero-image-container">
 
               <img
-                src="/photo1"
+                src="/hero-career.jpg"
                 alt="Personal HR career guidance"
               />
 
