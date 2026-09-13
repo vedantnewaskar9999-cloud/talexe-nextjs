@@ -240,8 +240,7 @@ export default function Home() {
 
         <section className="hero" id="home">
 
-          <div className="hero-grid"></div>
-
+          <div className="hero-grid">
           {/* LEFT CONTENT */}
           <div className="hero-copy">
 
