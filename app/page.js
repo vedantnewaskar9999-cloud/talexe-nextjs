@@ -240,7 +240,8 @@ export default function Home() {
 
         <section className="hero" id="home">
 
-          <div className="hero-grid">
+          <div className="hero-grid"></div>
+
           {/* LEFT CONTENT */}
           <div className="hero-copy">
 
@@ -305,7 +306,7 @@ export default function Home() {
             <div className="hero-image-container">
 
               <img
-                src="/hero-career.jpg"
+                src="/photo1.jpg"
                 alt="Personal HR career guidance"
               />
 
@@ -336,7 +337,7 @@ export default function Home() {
               <small>
                 1:1 guidance, tailored to your career stage — no templates.
               </small>
-              
+
             </div>
 
 
@@ -345,8 +346,9 @@ export default function Home() {
             <div className="hero-circle"></div>
 
           </div>
-        </div>
+
         </section>
+
 
 
 
