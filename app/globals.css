@@ -210,3 +210,47 @@ footer .logo { color:white; }
   footer { flex-direction:column; justify-content:center; gap:13px; padding:24px; }
   .marquee { overflow:hidden; white-space:nowrap; }
 }
+/* MOBILE HERO FIX */
+@media (max-width: 768px) {
+  .hero {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    min-height: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .hero-grid {
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: 0 !important;
+  }
+
+  .hero-copy {
+    position: relative !important;
+    z-index: 2 !important;
+    display: block !important;
+  }
+
+  .hero-visual {
+    position: relative !important;
+    z-index: 2 !important;
+    display: block !important;
+    min-height: 430px !important;
+  }
+
+  .hero-image-container {
+    position: relative !important;
+    width: 100% !important;
+    height: 430px !important;
+    overflow: hidden !important;
+  }
+
+  .hero-image-container img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+}
