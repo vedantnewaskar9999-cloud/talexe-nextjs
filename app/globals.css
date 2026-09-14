@@ -99,7 +99,7 @@ a { color: inherit; text-decoration: none; }
 .hero-image-container {
   position: absolute;
   inset: 0 0 24px 0;
-  overflow: hidden;
+  overflow: Visible;
 }
 .hero-image-container img {
   width: 100%;
