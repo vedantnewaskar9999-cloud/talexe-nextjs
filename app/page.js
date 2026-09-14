@@ -21,7 +21,7 @@ import {
   Send,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "918530809768";
+const WHATSAPP_NUMBER = "917249303254";
 
 const services = [
   {
@@ -601,7 +601,7 @@ export default function Home() {
 
                 <div>
                   <small>CALL US</small>
-                  <b>+91 85308 09768</b>
+                  <b>+91 724930 3254</b>
                 </div>
 
               </div>
@@ -934,7 +934,7 @@ export default function Home() {
               </a>
 
               <a
-                href="tel:+918530809768"
+                href="tel:+97249303254"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -946,7 +946,7 @@ export default function Home() {
                 }}
               >
                 <Phone size={14} />
-                <span>+91 85308 09768</span>
+                <span>+91 7249303254 </span>
               </a>
 
               <span
